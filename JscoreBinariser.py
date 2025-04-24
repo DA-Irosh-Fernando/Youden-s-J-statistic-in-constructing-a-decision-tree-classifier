@@ -1,15 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Blessed be your name Lord my God;
-Please help me, guide me, and lead me.
-With your hand, I will do mighty deeds to give glory to you and serve the world.
-Amen.
-Created on Mon Nov 25 19:15:55 2024
-Edited on Sat 08 Feb 2025.
 
-
-#---------
-  
 Let your servants see the wonderful things you can do for them.
     And let their children see your glory.
  Lord, our God, be kind to us.

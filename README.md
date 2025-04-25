@@ -72,3 +72,6 @@ Uses sklearn’s DecisionTreeClassifier with the 3 features from the dataset hav
 **5) JscoreTreeClassifier_top_3_features.py**
 ==============================================
 Finally, this is the main file that implements the proposed classification tree using the previously stated two core classes: 1) JscoreBinariser.py;  2) ProbabilityTree3Classifier.py. 
+
+**Output dataset: Model_comparison_(data_for_ROC_curve_analysis).csv**
+This contains the combined prediction outcomes from the 4 models written separately into csv files as stated above, and are compared in a ROC curve analysis presented in Figure 5 of the manuscript.

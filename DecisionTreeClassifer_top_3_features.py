@@ -70,7 +70,7 @@ y_pred_prob=tree_clf.predict_proba(X_test)
 #---------------------------------------WRITE THE OUTCOME TO A CSV FILE---------------------------------------------
 import csv
 
-with open('C:\\Users\\daipf\\OneDrive\\Documents\\TEMP\\eHealth_paper_scores_Log_loss_w3.csv','w',newline='') as csvfile:
+with open('C:\\Users\\Me\\eHealth_paper_scores_Log_loss_w3.csv','w',newline='') as csvfile:
     fieldnames =['Index','y_pred','y_test']
     writer=csv.DictWriter(csvfile, fieldnames =fieldnames)
     writer.writeheader()

@@ -34,7 +34,9 @@ Returns: the reduced 2-dimentinal array with n rows and k columns.
 
 
 **Dataset: Pima Indians Diabetes Database**
+==========================================
 Available via https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database. The data file is ‘diabetes.csv’ which needs to be saved and available for the following programs. 
 
 **2)Plot_J_scores_and_cutoffs_using_the_max_J_score_for_each_featur_in_Pimpa_Indians_daibetes_data_se.py**
+--------------------------------------------------------------------------------------------------------
 For each feature in the dataset, first it removes duplicates values and sort the data. Next, using each data point of each feature as a threshold, we calculate the J score. The data point with the highest J score is chosen as the cutoff point. The results are visualised using plots.

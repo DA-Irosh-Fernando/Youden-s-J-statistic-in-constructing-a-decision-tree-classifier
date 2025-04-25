@@ -21,7 +21,7 @@ from pathlib import Path
 
 #-----LOAD THE DATA -------------------------------------------------   
 
-folder=Path("C:/Users/daipf/Dropbox/PYTHON PROGRAMMING AND AI (NEW ERA 2025)/Pima Indians Diabetes Dataset/")
+folder=Path("C:/Users/Me/Pima Indians Diabetes Dataset/")
 df = pd.read_csv(folder/'diabetes.csv')
 
 

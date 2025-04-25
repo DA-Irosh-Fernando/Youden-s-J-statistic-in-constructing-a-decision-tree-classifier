@@ -1,7 +1,7 @@
 This repository contains the materials that supplement the paper titled “Youden's J statistic in constructing a decision tree classifier for medical diagnostic reasoning” published in the proceedings of the eHealth-2025 conference held in Lisbon Portugal. 
 As you may go through the content of the paper, here is the order of the content in this repository that you may follow.
 
-1) Class: JscoreBinariser.py
+**1) Class: JscoreBinariser.py**
 ============================
 This is the core class. It’s goal is to binarise a continuous dataset including the corresponding target values using the J score, using the following methods.
 

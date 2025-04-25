@@ -40,3 +40,29 @@ Available via https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-databa
 **2)Plot_J_scores_and_cutoffs_using_the_max_J_score_for_each_featur_in_Pimpa_Indians_daibetes_data_se.py**
 --------------------------------------------------------------------------------------------------------
 For each feature in the dataset, first it removes duplicates values and sort the data. Next, using each data point of each feature as a threshold, we calculate the J score. The data point with the highest J score is chosen as the cutoff point. The results are visualised using plots.
+
+
+
+** 3) ProbabilityTree3Classifier.py **
+======================================
+This is the other core class which implement a symmetric probability decision tree with tree features and having the following methods according to the convention of the classifiers in machine learning. 
+Note: this is a naive but a quick implementation of the concept for a set number of features. A better implementation for building a tree dynamically for any given number of features, has later been completed and will be made available later.
+
+3.1) Method: fit(self,X,y)
+--------------------------
+Fit a training data set with X and y as described previously.
+
+3.2) Method: predict(X_test)
+--------------------
+Predict the outcome using the test data set X-test and returns a binary vector corresponding to the outcome.
+
+ 3.2) method: predict_proba(X_test)
+ ----------------------------------
+Same as the above except it returns a vector corresponding to the outcome which are the actual probabilities.
+
+** 3) ProbabilityTree3Classifier.py **
+=====================================
+Same as the above class except it build a simpler tree using only two features. 
+
+
+

@@ -21,13 +21,13 @@ X is 2-dimentinal array with n rows and m columns of feature set.
 Y is a one-dimensional  array with n rows of target ( or outcome) values.
 Returns: a row vector of size m consisting of the cut-off points for each column in X. 
 
-1.3) Method:binarise(X,y)
+1.3) Method: binarise(X,y)
 -------------------------
 binarise a continuous dataset including the target values.
 parameters: as above and X consisting of continuous data.
 Returns: a binarised version of X using the cutoff derived from the above-method.
 
-1.3) Method:reduce_features(X,y,k)
+1.3) Method: reduce_features(X,y,k)
 ----------------------------------
 Reduces the number of columns m in X to k by eliminating columns of the features having low J scores. 
 Returns: the reduced 2-dimentinal array with n rows and k columns.

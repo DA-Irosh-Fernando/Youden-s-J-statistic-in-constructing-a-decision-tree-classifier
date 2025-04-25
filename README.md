@@ -69,6 +69,6 @@ Same as the above class except it build a simpler tree using only two features.
 =============================================
 Uses sklearn’s DecisionTreeClassifier with the 3 features from the dataset having the highest J score to construct a Decision Tree Classifier. Outcome scores are generated using Gini, Entropy and Log-loss functions (lines 55-61: needs commenting and uncommenting the relevant instruction accordingly). Note that the outcome scores are written to a csv file to be used in ROC curve analysis using Stata statistical software later. However, there are phyton libraries including MLstatkit and roc_comparison which can be used to do a similar analysis.
 
-** 5) JscoreTreeClassifier_top_3_features.py **
+**5) JscoreTreeClassifier_top_3_features.py**
 ==============================================
 Finally, this is the main file that implements the proposed classification tree using the previously stated two core classes: 1) JscoreBinariser.py;  2) ProbabilityTree3Classifier.py. 

@@ -8,18 +8,17 @@ This is the core class. It’s goal is to binarise a continuous dataset includin
 1.1) Method: derive_j(tn, fp, fn, tp): 
 ------------------------------
 Derives the J score.
-tn: true negatives
-fp: false positives
-fn: false negatives
+tn: true negatives.
+fp: false positives.
+fn: false negatives.
 tp: true positives.
-Returns: Youden's J statistic ( J score)
+Returns: Youden's J statistic ( J score).
 
 1.2) Method: derive_cutoffs(X,y)
 --------------------------------
 Generates the cutoff points for each feature using J score.  
-parameters:
-X is 2-dimentinal array with n rows and m columns of feature set
-Y is a one-dimensional  array with n rows of target ( or outcome) values
+X is 2-dimentinal array with n rows and m columns of feature set.
+Y is a one-dimensional  array with n rows of target ( or outcome) values.
 Returns: a row vector of size m consisting of the cut-off points for each column in X. 
 
 1.3) Method:binarise(X,y)

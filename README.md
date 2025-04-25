@@ -43,7 +43,7 @@ For each feature in the dataset, first it removes duplicates values and sort the
 
 
 
-** 3) ProbabilityTree3Classifier.py **
+**3) ProbabilityTree3Classifier.py**
 ======================================
 This is the other core class which implement a symmetric probability decision tree with tree features and having the following methods according to the convention of the classifiers in machine learning. 
 Note: this is a naive but a quick implementation of the concept for a set number of features. A better implementation for building a tree dynamically for any given number of features, has later been completed and will be made available later.
@@ -60,7 +60,7 @@ Predict the outcome using the test data set X-test and returns a binary vector c
  ----------------------------------
 Same as the above except it returns a vector corresponding to the outcome which are the actual probabilities.
 
-** 3) ProbabilityTree3Classifier.py **
+**3) ProbabilityTree2Classifier.py**
 =====================================
 Same as the above class except it build a simpler tree using only two features. 
 

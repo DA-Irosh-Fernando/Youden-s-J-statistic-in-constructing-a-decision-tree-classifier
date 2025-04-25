@@ -38,7 +38,7 @@ Returns: the reduced 2-dimentinal array with n rows and k columns.
 Available via https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database. The data file is ‘diabetes.csv’ which needs to be saved and available for the following programs. 
 
 **2)Plot_J_scores_and_cutoffs_using_the_max_J_score_for_each_featur_in_Pimpa_Indians_daibetes_data_se.py**
---------------------------------------------------------------------------------------------------------
+=========================================================================================================
 For each feature in the dataset, first it removes duplicates values and sort the data. Next, using each data point of each feature as a threshold, we calculate the J score. The data point with the highest J score is chosen as the cutoff point. The results are visualised using plots.
 
 
@@ -65,4 +65,7 @@ Same as the above except it returns a vector corresponding to the outcome which 
 Same as the above class except it build a simpler tree using only two features. 
 
 
+**4) DecisionTreeClassifer_top_3_features.py**
+=============================================
+Uses sklearn’s DecisionTreeClassifier with the 3 features from the dataset having the highest J score to construct a Decision Tree Classifier. Outcome scores are generated using Gini, Entropy and Log-loss functions (needs commenting and uncommenting the relevant instruction accordingly). Note that the outcome scores are written to a csv file to be used in ROC curve analysis using Stata statistical software later. However, there are phyton libraries including MLstatkit and roc_comparison which can be used to do a similar analysis.
 

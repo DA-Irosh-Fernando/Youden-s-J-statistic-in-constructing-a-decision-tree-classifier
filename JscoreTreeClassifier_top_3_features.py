@@ -128,7 +128,7 @@ _ = display.ax_.set(
 #---------------------------------------WRITE TO A CSV FILE---------------------------------------------
 import csv
 
-with open('C:\\Users\\daipf\\OneDrive\\Documents\\TEMP\\eHealth_paper_scores_JScore.csv','w',newline='') as csvfile:
+with open('C:\\Users\\Me\\eHealth_paper_scores_JScore.csv','w',newline='') as csvfile:
     fieldnames =['Index','y_pred','y_test']
     writer=csv.DictWriter(csvfile, fieldnames =fieldnames)
     writer.writeheader()

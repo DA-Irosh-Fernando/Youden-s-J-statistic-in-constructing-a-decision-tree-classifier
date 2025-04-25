@@ -60,7 +60,7 @@ Predict the outcome using the test data set X-test and returns a binary vector c
  ----------------------------------
 Same as the above except it returns a vector corresponding to the outcome which are the actual probabilities.
 
-**3) Class: ProbabilityTree2Classifier.py**
+** Class: ProbabilityTree2Classifier.py**
 =====================================
 Same as the above class except it build a simpler tree using only two features. 
 
